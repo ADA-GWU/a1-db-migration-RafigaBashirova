@@ -17,10 +17,16 @@ Once you are done with installations. The most important thing to do is to conne
 1. start your Postgres Server.
 Then, in the PgAdmin 4:
 2. click on the Server (create server). 
+
    a. Give the name to your server as descriptive as possible (for example; my_first_local_postgres_server). 
+   
    b. In the connection part, the host name needs to be your "localhost" which is the physical address of your machine. 
+   
    c. Give username and password. Save it.
-So, you are done with the connecting PgAdmin to the Postgres Server. Another step is to create your own database. Give descriptive name to your database and create.
+   
+So, you are done with the connecting PgAdmin to the Postgres Server. 
+
+Another step is to create your own database. Give descriptive name to your database and create.
 Then, click on the database you have created. Go to the "Tools". There should be "Query tools".
 
 Firstly, there you need to open "migrate.sql" file and run it. In this way, your students and interests tables will be created with the values inside it. You can check (whether the tables on there with values or not) using the command that I specify: select * from STUDENTS; You need to just highlight this command and click on the run button. So, you will see students table having values. If you wrote INTERESTS instead of STUDENTS on the command, you would see the interests table having values.
